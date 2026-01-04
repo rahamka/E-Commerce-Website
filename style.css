@@ -523,11 +523,16 @@ footer {
 #itemCategoriesDiv {
   display: flex;
   padding-left: 1.7rem;
-  padding-top: 2rem;
+  padding-top: 1rem;
+  padding-bottom: 3rem;
+  gap: 2rem;
+  justify-content: center;
+  align-items: center;
+  overflow-x: scroll;
 }
 
 #phoneCategoryItem {
-  border: 1px solid #000000;
+  border: 1.5px solid #b4a2a29d;
   height: 90px;
   width: 90px;
   display: flex;
@@ -544,6 +549,18 @@ footer {
 
 #phoneCategoryItem i {
   font-size: 1.5rem;
+}
+
+@media (min-width: 700px) and (max-width: 100vw) {
+  #itemCategoriesDiv {
+    padding-left: 3.5rem;
+  }
+}
+
+@media (min-width: 700px) and (max-width: 100vw) {
+  #categoryContainer {
+    padding: 2rem;
+  }
 }
 
 @media screen and (max-width: 760px) {
