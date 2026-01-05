@@ -539,6 +539,7 @@ footer {
   flex-direction: column;
   justify-content: space-evenly;
   align-items: center;
+  padding: 1rem;
 }
 
 #phoneCategoryItem p {
@@ -549,6 +550,189 @@ footer {
 
 #phoneCategoryItem i {
   font-size: 1.5rem;
+}
+
+#cardsContainer {
+  display: flex;
+  flex-direction: column;
+}
+
+#bestSellingProductsPara {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+
+#thisMonthContainer {
+  padding: 2rem;
+}
+
+#thisMonthPara {
+  padding-left: 0.6rem;
+  font-weight: 600;
+  font-size: 0.9rem;
+  color: #a70000;
+}
+
+#viewAllbtn {
+  height: 40px;
+  width: 150px;
+  color: white;
+  font-weight: 600;
+  font-size: 1rem;
+  background-color: rgba(255, 0, 0, 0.836);
+  word-spacing: 5px;
+  letter-spacing: 2px;
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+  border: none;
+  border-radius: 10px;
+}
+
+#bestSellingProductsPara p {
+  font-weight: 600;
+}
+
+#bestSellingProductsPara {
+  padding-bottom: 2rem;
+}
+
+#cardImg > aside {
+  float: right;
+}
+
+#cardImg {
+  display: flex;
+}
+
+#cardRatingPriceDiv > .cardName {
+  font-weight: 700;
+  font-size: 1rem;
+  padding-bottom: 0.4rem;
+  padding-top: 1rem;
+}
+
+#ItemCardsContainer {
+  display: flex;
+}
+
+.ItemCard {
+  border: 1px solid #666;
+  padding: 1rem;
+}
+
+#cardRatingPriceDiv #cardPrice {
+  font-weight: 600;
+}
+
+#cardPrice span {
+  text-decoration: line-through;
+  color: #666;
+  padding-left: 12px;
+}
+
+#card {
+  border-radius: 10px;
+}
+
+#cardImg {
+  background-color: #82828225;
+}
+
+#card #cardImg aside {
+  padding-left: 1rem;
+}
+
+.cardIcon {
+  font-size: 1rem;
+}
+
+.cardIcon:hover {
+  opacity: 0.5;
+}
+
+#ItemCardsContainer {
+  display: flex;
+  flex-direction: row;
+  overflow-x: scroll;
+  gap: 1rem;
+}
+
+#cardPrice {
+  color: #a70000;
+}
+
+#cardPrice span {
+  color: #666;
+}
+
+#cardImg img {
+  mix-blend-mode: multiply;
+}
+
+#cardImg {
+  padding: 1rem;
+}
+
+#itemCategoriesDiv {
+  padding: 1rem 1rem 1rem 10rem;
+}
+
+.item {
+  background-color: #82828225;
+}
+
+.item img {
+  mix-blend-mode: multiply;
+}
+
+.itemOffer {
+  font-size: 0.8rem;
+}
+
+@media (min-width: 315px) and (max-width: 421px) {
+  #thisMonthContainer {
+    padding: 0rem;
+  }
+
+  #ItemCardsContainer {
+    padding-left: 1rem;
+  }
+}
+
+@media screen and (max-width: 421px) {
+  #thisMonthPara {
+    padding-left: 1rem;
+  }
+  #bestSellingProductsPara p {
+    padding-left: 1rem;
+    padding-top: 0.5rem;
+  }
+  #dayDiv p {
+    padding-left: 0.8rem;
+  }
+}
+
+@media (min-width: 376px) and (max-width: 430px) {
+  #itemCategoriesDiv {
+    padding-left: 4rem;
+  }
+}
+
+@media (min-width: 319px) and (max-width: 730px) {
+  #viewAllbtn {
+    width: fit-content;
+    height: fit-content;
+    padding: 0.5rem;
+  }
+}
+
+@media (min-width: 700px) and (max-width: 1440px) {
+  #browsePara p {
+    font-size: 1.5rem;
+  }
+  #bestSellingProductsPara {
+    font-size: 1.5rem;
+  }
 }
 
 @media (min-width: 700px) and (max-width: 100vw) {
