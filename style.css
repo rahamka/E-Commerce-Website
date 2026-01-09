@@ -5,6 +5,12 @@
   font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
 }
 
+html,
+body {
+  width: 100%;
+  overflow-x: hidden;
+}
+
 header {
   display: flex;
   flex-wrap: wrap;
@@ -588,6 +594,10 @@ footer {
   border-radius: 10px;
 }
 
+#viewAllbtn:hover {
+  cursor: pointer;
+}
+
 #bestSellingProductsPara p {
   font-weight: 600;
 }
@@ -689,6 +699,97 @@ footer {
   font-size: 0.8rem;
 }
 
+#itemCategoryContainer {
+  background-color: #000000;
+  padding: 1.5rem;
+  font-family: system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto,
+    Oxygen, Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
+  color: white;
+  font-weight: 600;
+  border-radius: 10px;
+}
+
+#itemCategoryMainContainer p {
+  color: rgb(0, 255, 76);
+}
+
+#timeCircle {
+  height: 75px;
+  width: 75px;
+  border-radius: 50%;
+  background-color: #fff;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+
+#timeCircle div {
+  color: #000000;
+}
+
+#buyButton {
+  height: 40px;
+  width: 130px;
+  background-color: #00d32e;
+  color: #fff;
+  border: none;
+  border-radius: 10px;
+  margin-bottom: 2rem;
+}
+
+#buyButton:hover {
+  cursor: pointer;
+}
+
+#timeCircleContainer {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  gap: 1rem;
+  padding: 1.5rem 0 1.5rem 0;
+}
+
+#itemCategoryContainer {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
+  height: fit-content;
+  width: fit-content;
+  padding: 2rem;
+}
+
+#itemCategoryMainContainer {
+  padding: 0 2rem 0 1rem;
+}
+
+#itemCategoryMainContainer h2 {
+  padding-top: 1rem;
+}
+
+.centerContainer {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding-top: 2rem;
+  border-radius: 10px;
+}
+
+@media (min-width: 760px) and (max-width: 100vw) {
+  #leftArrow2,
+  #rightArrow2 {
+    display: none;
+  }
+}
+
+@media screen and (max-width: 600px) {
+  #itemCategoryContainer {
+    padding: 0;
+  }
+}
+
 @media (min-width: 315px) and (max-width: 421px) {
   #thisMonthContainer {
     padding: 0rem;
@@ -712,6 +813,96 @@ footer {
   }
 }
 
+#exploreProductPara {
+  display: flex;
+  flex-direction: column;
+}
+
+#arrowDiv3 {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  gap: 1rem;
+}
+
+#exploreParaDiv {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+#exploreParaDiv p {
+  font-size: 1.5rem;
+  font-weight: 600;
+}
+
+#exploreProductPara {
+  padding-top: 3rem;
+  padding-left: 2rem;
+  padding-right: 2rem;
+}
+
+.arrow:hover {
+  cursor: pointer;
+}
+
+.exPara {
+  font-size: 0.9rem;
+  font-weight: 600;
+  color: #a70000;
+  padding-bottom: 2rem;
+}
+
+#cardHeroSection {
+  display: flex;
+  justify-content: center;
+  padding: 1rem;
+  padding-bottom: 2rem;
+  background-color: #82828225;
+  border-radius: 10px;
+}
+
+#card-icon {
+  padding-left: 0.5rem;
+  display: flex;
+  flex-direction: column;
+  row-gap: 1rem;
+}
+
+#exCardRatingPrice p span {
+  font-weight: 600;
+  padding: 0.5rem;
+}
+
+.exCardName p {
+  font-weight: 600;
+  font-size: 0.9rem;
+}
+
+#exploreProductContainer {
+  display: flex;
+  flex-wrap: wrap;
+  flex-direction: row;
+  gap: 2rem;
+  padding-left: 10px;
+  padding-top: 2rem;
+}
+
+.exCardPrice {
+  color: #a70000;
+}
+
+#cardNameOtherInfo {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+#cardNameOtherInfo p {
+  padding: none;
+}
 @media (min-width: 376px) and (max-width: 430px) {
   #itemCategoriesDiv {
     padding-left: 4rem;
